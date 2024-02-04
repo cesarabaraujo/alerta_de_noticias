@@ -1,4 +1,5 @@
-![Foto de Capa][(https://github.com/cesarabaraujo/capa_perfil/blob/main/_5f80f62d-4060-40ec-a4b9-c9c96a8a4f73.jpeg)
+![Foto de Capa](https://github.com/cesarabaraujo/capa_perfil/blob/main/_5f80f62d-4060-40ec-a4b9-c9c96a8a4f73.jpeg)
+
 
 # Modelo de Alerta Automático - Python 
 
