@@ -5,7 +5,7 @@
 
 ## Visão Geral:
 
-Este projeto tem como objetivo criar um gerador de alertas a partir de links de notícias específicas. Utiliza o módulo `requests` para realizar requisições HTTP, faz web scraping com BeautifulSoup e utiliza o `urlparse` para extrair informações do domínio. As informações extraídas incluem o nome do site, o título da matéria e um trecho que menciona uma palavra-chave específica.
+Este projeto tem como objetivo criar um gerador de alertas a partir de links de notícias específicas. Utiliza o módulo `requests` para realizar requisições HTTP, faz web scraping com `BeautifulSoup` e utiliza o `urlparse` para extrair informações do domínio. As informações extraídas incluem o nome do site, o título da matéria e um trecho que menciona uma palavra-chave específica.
 
 ## Motivação:
 
@@ -15,7 +15,7 @@ O projeto surgiu da necessidade de otimizar o processo de geração de alertas p
 
 Este projeto pode ser utilizado como uma ferramenta por equipes de relações públicas, monitoramento e clippagem.
 
-Para usar o código, adicione o link da matéria que deseja extrair em `link_materia` e o termo que deseja buscar no corpo da matéria em `palavra_chave`. A função retornará o parágrafo que contém o link. Adicione o nome do cliente ou da conta atendida em `nome_do_cliente`.
+Para usar o código, adicione o link da matéria que deseja extrair em `link_materia` e o termo que deseja buscar no corpo da matéria em `palavra_chave`, `palavra_chave` é uma lista, portanto, é possível adicionar mais de um termo, se desjear. A função retornará o parágrafo que contém o link. Adicione o nome do cliente ou da conta atendida em `nome_do_cliente`.
 
 Além disso, é possível personalizar o modelo de alerta dentro da função `criar_alerta`, na variável `modelo_alerta`.
 
